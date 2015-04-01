@@ -1,31 +1,20 @@
-#n { clear:both; text-align:center;}
+html {background:url(/images/body.gif);}
+body {margin:0; font-size:12px; line-height:20px; font-family:Arial, Helvetica, sans-serif; background:url(/images/body_bckg.gif) repeat-x;}
+a {color:#EE4400; text-decoration:none;}
+a:hover {text-decoration:underline;}
 
-	 #x { 
-	 float: left;
-	 }
-	 #b {
-text-align:left;
-}
-	 .centr {
-  width: 200px;
-  margin:0 auto;
- }
-	 #a {
-	 text-indent: 20px; 
-	 }
-	  p { font:  arial; 
-	   line-height: 0.1;
-	 }
-.block {
-    width: 700px;
-    height: 210px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-left: -350px;
-    margin-top:-105px;
-}
-.font{font:  helvetica;font-size: 17pt;}   
- span.left { margin-left: -0.25em; }
-   span.right { margin-right: -0.25em; }
+#container {background:url(/images/main_bckg.jpg) center top no-repeat; width:1000px; margin:0 auto;}
 
+#logo {font-size:24px; font-family:"Impact", "Tahoma", Arial, "Geneva", sans-serif; padding:40px 100px 70px 210px;}
+#logo a {color:#FFFFFF; text-decoration:none; text-transform:uppercase;}
+
+#main {margin:15px 110px; float:left; background-color:#FFFFFF; min-height:350px; display:inline;}
+#text {margin:20px 120px 0 140px;}
+h1 {margin:20px 0 0 0; text-transform:uppercase; font-family:"Impact", "Tahoma", Arial, "Geneva", sans-serif; font-size:22px; font-weight:normal;}
+#text p {margin:10px 0;}
+
+#footer {padding:0 110px; height:169px; clear:both; background:url(/images/footer_bckg.jpg) center top no-repeat;}
+#menu_footer {color:#7A2200; font-size:11px; padding:40px 0 0 30px;}
+#down_footer {float:left; padding:60px 0 0 280px; color:#FFFFFF; font-size:12px;}
+
+.Button {}

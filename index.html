@@ -1,38 +1,35 @@
-
-
-<html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-	<title>Сторінка привітання</title>
-	<link rel="stylesheet" type="text/css" href="/css/style.css">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Career</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
 </head>
-<body>   
-<div class="block" id="results">
-     <p id="a">Ми пропонуємо Вам пройти шість тестів які можуть</p>
-     <p>полегшити обрання професії</p>
-
-	<div>
-	   <label for="n">Ведіть ваше ім'я</label>
-	   <input type="text" id="align" />
-	 </div>
-	 <br/>
-	 <form>
-		  <p id="x"><input type="radio" name="one" value="two" class="inner"><label>Xлопець</p>
-		  <p id="xy"><input type="radio" name="one" value="three" class="inner"><label>Дівчина</p>
-	 </form>
-	<br/>
-	<br/>
-	<p><strong>Шлях в тисячу миль починається з першого кроку<span class="right">.</span><span class="right">.</span><strong></p> 
-	<p<strong>З допомогою цих тестів-опитувальників Ви отримуєте можливість<strong><p>
-	<p><strong>пізнати себе<span class="right">,</span> свої здібності<span class="right">,</span> нахили і напрямки в яких Ви можете<strong></p> 
-	<p><strong>розвивати свою особистість та зорієнтуватись у виборі професій<span class="right">.</span> якими<strong></p>
-	<p><strong>Ви можете оволодіти щоб досягнути успіху<strong></p>
-
-	<br/>
-	<button class="Button" style="width:200px;height:35px" onclick="route('greetings','1')">Розпочати тестування</button>
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-	<script src="/js/router.js"></script>
+<body>
+<div id="container">
+    <div id="logo"><a href="#">Career Oriented</a></div>
+    <div id="main">
+        <div id="text">
+            <h1>Welcome</h1>
+            <p>Ми пропонуємо Вам пройти шість тестів які можут полегшити обрання професії</p>
+            <form id="form" action="forma.js" method="post" > <!--forma.js write leter. -->
+                <label><input type="text" name="Name" value="Name" onBlur="if(this.value=='') this.value='Name'" onFocus="if(this.value =='Name' ) this.value=''"></label>
+                <fieldset>
+                    <legend>Стать</legend>
+                    <input type="radio" name="sex" value="man"> Чол.<br>
+                    <input type="radio" name="sex" value="woman"> Жін.<br>
+                </fieldset>
+                <p>Нижний приветственный текст должен быть “Шлях в тисячу миль починається з першого кроку, і для того щоб усвідомити куди йти, потрібно мати певний план дій, що допоможе досягти результатів...“</p>
+                <button class="Button" style="width:200px;height:35px" onclick="route('greetings','1')">Розпочати тестування</button>
+                <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+                <script src="/js/router.js"></script>
+            </form>
+        </div>
+    </div>
+    <div id="footer">
+        <div id="menu_footer"></div>
+        <div id="down_footer">&copy; Copyright 2015 <b>IT Academy</b></div>
+    </div>
 </div>
-
 </body>
 </html>
