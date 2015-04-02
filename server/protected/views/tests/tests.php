@@ -9,7 +9,7 @@ $this->pageTitle=Yii::app()->name;
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<title>Сторінка завершення тестів</title>
-	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/style2.css">
+	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/style.css">
 </head>
 <body>
  	<div id="start_test">

@@ -42,7 +42,7 @@ function route(path,data){
 
 function getData(successFunction,request)
 {
-   url = "http://po.itatests.com/server/index.php?r=tests/tests";
+   url = "http://careeroriented/server/index.php?r=tests/tests";
    $.ajax({
    url: url,
    cache: false,
@@ -53,7 +53,7 @@ function getData(successFunction,request)
     successFunction(data);
      },
    error: function (errormessage) {
-               alert("Error");
+               alert("Error1");
                }
    });
 }
@@ -61,7 +61,7 @@ function getData(successFunction,request)
 function getTests(successFunction,request)
 {
 	
-   url = "http://po.itatests.com/index.php?r=tests/testsJSON";
+   url = "http://careeroriented/server/index.php?r=tests/testsJSON";
    $.ajax({
    url: url,
    cache: false,
