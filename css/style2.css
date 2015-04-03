@@ -30,6 +30,9 @@ width: 400px;
 text-align: center;
 margin:0 auto;
 }
+ #maiores {
+text-align: justify;
+}
 .inner {
 float: left;
 width: 78px;
