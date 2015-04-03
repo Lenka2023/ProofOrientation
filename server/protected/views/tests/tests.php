@@ -24,7 +24,7 @@ $this->pageTitle=Yii::app()->name;
 			<div class="inner"><p class="small">Дуже не подобається<p>
 				<button class="Button" onclick="show('block',this.id)">-2</button>
 			</div>
-			<div class="inner">
+			<div class="inner"><p class="small" >Не подобається<p>
 				<button class="Button" onclick="show('block',this.id)">-1</button>
 			</div>
 			<div class="inner">
