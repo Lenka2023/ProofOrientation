@@ -12,6 +12,7 @@ $this->pageTitle=Yii::app()->name;
 </head>
 <body>
 <form>
+<fieldset >Акцентуації
  	<div id="start_test">
 		<div id="header"></div>
 		<div id="content_tests">
@@ -42,6 +43,7 @@ $this->pageTitle=Yii::app()->name;
 	</div>
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 	<script src="<?php echo Yii::app()->request->baseUrl; ?>/js/router.js"></script>
+</fieldset >
 </form>
 </div>
 
