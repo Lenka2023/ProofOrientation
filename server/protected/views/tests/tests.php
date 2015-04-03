@@ -30,7 +30,7 @@ $this->pageTitle=Yii::app()->name;
 			<div class="inner"><p class="small">Нейтрально</p>
 				<button class="Button" onclick="show('block',this.id)">0</button>
 			</div>
-			<div class="inner">
+			<div class="inner"><p class="small">Подобається<p>
 				<button class="Button" onclick="show('block',this.id)">+1</button>
 			</div>
 			<div class="inner">
