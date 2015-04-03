@@ -20,7 +20,7 @@ $this->pageTitle=Yii::app()->name;
 	
 			<p id="maiores" class="teg" class="letter">Тут буде відображене запитання<span class="right">.</span> Ви повинні обрати один з пяти варіантів Вашого ставлення<span class="right">:</span> -2(зовсім не правильно)<span class="right">,</span> -1(не правильно)<span class="right">,</span> 0(важко відповісти)<span class="right">,</span> +1(правильно)<span class="right">,</span> +2(цілком правильно)<span class="right">.</span></p>
 		</div>
-		<div id="footer">
+		<div id="centr row3">
 			<div class="inner">
 				<button class="Button" onclick="show('block',this.id)">-2</button>
 			</div>
