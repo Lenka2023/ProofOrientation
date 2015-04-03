@@ -34,7 +34,7 @@ $this->pageTitle=Yii::app()->name;
 			</div>
 		 
 		<br /> <br /> <br /> <br /> <br />
-		<div class="block">
+		<div class="block"> 
 		<button class="Button" style="width:200px;height:35px" onclick="route('tests','1', '#start_test')">Почати тест зараз</button>
 		</div>
 		<div id="myButton"></div>
