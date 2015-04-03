@@ -40,6 +40,7 @@ $this->pageTitle=Yii::app()->name;
 		 <div class="row4">
 		 <div class="block">
 		 <p class="outer" class="letter">Намагайтесь уникати відповіді"0"</p>
+		 </div>
 		<button class="Button" style="width:200px;height:35px" onclick="route('tests','1', '#start_test')">Почати тест зараз</button>
 		</div>
 		<div id="myButton"></div>
