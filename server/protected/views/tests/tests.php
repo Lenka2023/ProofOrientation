@@ -45,13 +45,14 @@ $this->pageTitle=Yii::app()->name;
 		<button class="Button" style="width:200px;height:35px" onclick="route('tests','1', '#start_test')">Почати тест зараз<img src="images/s.png"></button>
 		</div>
 		<div id="myButton"></div>
-	</div>
+	<div>
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 	<script src="<?php echo Yii::app()->request->baseUrl; ?>/js/router.js"></script>
+</div>
 <div>
 </fieldset >
 </form>
-</div>
+
 
 </body>
 </html>
