@@ -11,6 +11,7 @@ $this->pageTitle=Yii::app()->name;
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/style2.css">
 </head>
 <body>
+<form>
  	<div id="start_test">
 		<div id="header"></div>
 		<div id="content_tests">
@@ -41,6 +42,7 @@ $this->pageTitle=Yii::app()->name;
 	</div>
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 	<script src="<?php echo Yii::app()->request->baseUrl; ?>/js/router.js"></script>
+</form>
 </div>
 
 </body>
