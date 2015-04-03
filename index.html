@@ -11,24 +11,22 @@
     <div id="logo"><a href="#">Career Oriented</a></div>
         <div id="main">
             <h3>Ми пропонуємо Вам пройти шість тестів, які можуть полегшити обрання професії.</h3>
-            <div id="fieldset">
-                <div class="phNameLocation" >
-                    <input type="text" placeholder="Введіть ваше ім'я"  id="phName" />
-                </div >
-                <div id="text">
-                    <form >
-                        <fieldset ><legend>Оберіть стать</legend>
-                            <div class="textalign">
-                                <p class="font"><input type="radio" name="one" id="sex" value="1"><label>Чол.</label></p>
-                                <p class="font"><input type="radio" name="one" id="sex" value="2"><label>Жін.</label></p>
-                            </div>
-                        </fieldset>
-                    </form>
-                    <p>“Шлях в тисячу миль починається з першого кроку, і для того щоб усвідомити куди йти, потрібно мати певний план дій, що допоможе досягти результатів...“</p>
-                </div>
-                <div class="buttonLocation">
-                    <button class="button" style="width:200px;height:35px" onclick="startTesting()">Розпочати тестування</button>
-                </div>
+            <div class="phNameLocation" >
+                <input type="text" placeholder="Введіть ваше ім'я"  id="phName" />
+            </div >
+            <div id="text">
+                <form >
+                    <fieldset ><legend>Оберіть стать</legend>
+                        <div class="sex_form">
+                            <p class="radio_choice"><input type="radio" name="man" id="sex" value="1"><label>Чоловік</label></p>
+                            <p class="radio_choice"><input type="radio" name="woman" id="sex" value="2"><label>Жінка</label></p>
+                        </div>
+                    </fieldset>
+                </form>
+                <p>“Шлях в тисячу миль починається з першого кроку, і для того щоб усвідомити куди йти, потрібно мати певний план дій, що допоможе досягти результатів...“</p>
+            </div>
+            <div class="button_location">
+                <button class="button" style="width:200px;height:35px" onclick="startTesting()">Розпочати тестування</button>
             </div>
         </div>
     <div id="start_test">
