@@ -33,6 +33,7 @@ margin:0 auto;
  #maiores {
 text-align: justify;
 }
+.letter{font:  helvetica;font-size: 14pt;}
 .inner {
 float: left;
 width: 78px;
