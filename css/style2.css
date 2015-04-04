@@ -63,5 +63,12 @@ box-shadow: 5px 5px 5px rgba(0, 0, 0, .75);
 behavior: url(PIE.htc);
 }
 body{width:760px; min-height:500px;margin: auto;
+.inner {
+  float: left;
+
+   width: 140px;
+  
+   margin: auto; /* Для IE8+ и других браузеров */
+  }
 }
 #content_tests{ font: helvetica;font-size: 14pt; text-align: center;}
