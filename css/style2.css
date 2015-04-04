@@ -5,6 +5,11 @@ width:1005px;
 background:red;
 }
 }
+.centr {
+  width: 300px;
+  margin:0 auto;
+  display:inline;
+  }
 @media (min-width:768px) and (max-width:999px){
 .one{
 height:300px;
