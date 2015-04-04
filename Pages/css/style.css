@@ -1,0 +1,81 @@
+p.teg{
+    text-indent: 20px; /* Отступ первой строки в пикселах */
+    padding: 0 0.5em 0 0.5em;
+word-spacing: 0.2em;
+   }
+   strong {font:  helvetica;font-size: 17pt;
+text-align:justify;
+
+}
+   #maiores {
+text-align: justify;
+}
+   span.left { margin-left: -0.25em; }
+   span.right { margin-right: -0.25em; }
+
+	 .outer {
+    text-align: center; /* Для IE<8 */
+   
+  }
+  .letter{font:  helvetica;font-size: 14pt;}
+  .inner {
+  float: left;
+
+   width: 140px;
+  
+   margin: auto; /* Для IE8+ и других браузеров */
+  }
+  .middle{
+  width:300px;
+  margin:0 auto;
+  }
+  .centr {
+  width: 300px;
+  margin:0 auto;
+  display:inline;
+  }
+  button img{width:35px;
+float: right;}
+#Butt {
+	padding-top:7px;
+font:  helvetica;font-size: 14pt;
+     height:55px;
+    width:300px;
+        border-radius: 7px;
+		margin:0 auto;
+}
+
+fieldset{
+width:760px;
+min-height:500px;
+}
+.small{
+font-size: 9pt;
+}
+  .row4{
+margin-top:120px;
+}  
+ .row4{
+margin-top:120px;
+}   
+.row3{
+margin-top:50px;
+}  
+#wide{
+width:730px;
+} 
+.But {
+   
+	margin-right: 10px; 
+	margin-top: 3px;
+	margin-left:10px;
+    margin-bottom: 10px; 
+    display:inline;
+    height:85px;
+    width:80px;
+    line-height:80px;
+     background-image:;
+    background-repeat:;
+	
+	}
+	
